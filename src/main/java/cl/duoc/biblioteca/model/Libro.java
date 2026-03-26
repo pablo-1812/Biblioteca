@@ -1,0 +1,20 @@
+package cl.duoc.biblioteca.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+
+public class Libro {
+    
+    private int id;
+    private int fechaPublicacion;
+    private String isbn;
+    private String titulo;
+    private String editorial;
+    private String autor;
+
+}
